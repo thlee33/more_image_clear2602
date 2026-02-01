@@ -5,7 +5,6 @@ SwinIR 기반 위성영상 이미지 고도화
 AI Super-Resolution 기술인 SwinIR을 활용하여 위성영상 이미지를 보다 더 선명하게 만들 수 있습니다. 
 
 
-
 🌟 Key Features
 
 SwinIR-M x4 GAN Model: 최신 Vision Transformer 기반의 SwinIR 모델을 사용하여 단순 확장이 아닌, 픽셀 단위의 디테일을 복원합니다.  
@@ -20,26 +19,7 @@ Hardware Optimization: GTX 시리즈 등 보급형 GPU에서도 안정적으로 
 
 🚀 Performance Benchmark
 
-4~5년 전 출시된 GTX 노트북(GTX 1650급) 환경에서의 성능 테스트 결과입니다.
-
-Device
-
-Average Time per Tile
-
-Speedup
-
-CPU (i7-9th Gen)
-
-23.40s
-
-1.0x
-
-GPU (GTX CUDA)
-
-2.73s (Pure Compute)
-
-8.5x
-
+CPU만 있는 장비에서도 실행되고, CUDA(GPU) 환경이면 더 빠르게 실행됩니다.   
 
 🛠️ Installation & Usage
 
